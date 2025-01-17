@@ -26,7 +26,7 @@ class ParkingLot:
 
         # Set initial positions and target positions for cars
         self.base_y = -self.scale_height  # Starting position off-screen at the top
-        self.queue_spacing = 75  # Vertical spacing between cars (with more margin for bigger cars)
+        self.queue_spacing = 55  # Vertical spacing between cars (with more margin for bigger cars)
 
         # Create more space at the bottom for the first car by shifting it down slightly
         self.max_target_y = self.screen.get_height() - self.scale_height - 15  # Start the first car 30px from the bottom side
